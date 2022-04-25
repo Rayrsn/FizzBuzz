@@ -1,7 +1,7 @@
 # FizzBuzz C
 ### FizzBuzz written in C language.
 
-## Running
+## Building
 * Linux :
 ```bash
 clang ./main.c

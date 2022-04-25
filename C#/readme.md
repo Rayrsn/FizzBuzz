@@ -1,7 +1,7 @@
 # FizzBuzz C#
 ### FizzBuzz written in C# language.
 
-## Running
+## Building and Running
 * Linux :
   * ***NOTE:*** Make sure you have mono-complete installed.
 ```bash
