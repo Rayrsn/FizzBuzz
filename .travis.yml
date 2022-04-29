@@ -1,0 +1,60 @@
+jobs:
+  include:
+    - language: c
+      os: linux
+      before_script:
+        - cd C
+      script:
+        - clang ./main.c
+
+    - language: csharp
+      os: linux
+      mono: latest
+      before_script:
+        - cd C#
+      script:
+        - mcs ./main.cs
+        - mono ./main.exe
+
+    - language: cpp
+      os: linux
+      before_script:
+        - cd C++
+      script:
+        - g++ ./main.cpp
+
+    - language: go
+      os: linux
+      before_script:
+        - cd Go
+      script:
+        - go build ./fizzbuzz.go
+
+    - language: java
+      os: linux
+      before_script:
+        - cd Java
+      script:
+        - java ./FizzBuzz.java
+
+    - language: node_js
+      os: linux
+      before_script:
+        - cd JavaScript
+      script:
+        - node ./index.js
+
+    - language: python
+      python: 3.10
+      before_script:
+        - cd Python
+      script:
+        - python ./main.py
+
+    - language: rust
+      os: linux
+      before_script:
+        - cd Rust
+      script:
+        - cargo build --release
+  
