@@ -4,7 +4,6 @@ const readline = require('readline').createInterface({
   });
   
   readline.question("How many numbers to display: ", numcount => {
-    // print 1 to numcount
     for (let i = 1; i <= numcount; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             console.log("FizzBuzz")

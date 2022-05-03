@@ -17,7 +17,5 @@ int main(){
         } else {
 		cout << i << "\n";
 	}}
-	
  	return 0;
-
 }

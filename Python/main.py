@@ -1,5 +1,4 @@
 numcount = input("How many numbers to display: ")
-# try converting numcount to int
 try:
     numcount = int(numcount)
 except:

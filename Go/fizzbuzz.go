@@ -7,7 +7,6 @@ import (
 
 func main() {
 	var numcount string
-
 	fmt.Print("How many numbers to display: ")
 	fmt.Scanf("%s", &numcount)
 	intnumcount, err := strconv.Atoi(numcount)
@@ -26,5 +25,4 @@ func main() {
 			fmt.Println(i)
 		}
 	}
-
 }

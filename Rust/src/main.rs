@@ -1,7 +1,6 @@
 use std::io::{stdin, self, Write};
 
 fn main() {
-	// print user input
     print!("How many numbers to display: ");
     io::stdout().flush().expect("Failed to flush stdout");
     let mut input = String::new();
